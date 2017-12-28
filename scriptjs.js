@@ -15,6 +15,6 @@ var htmlString="";
 for(i=0;i<data.length;i++) {
 htmlString += "<p>"+data[i].name+ "is a"+data[i].event+".</p>";
 }
-document.getElementById("info").insertAdjacentHTML('beforeEnd', htmlString);
+document.getElementById("info").innerHTML = htmlString;
 
 }
