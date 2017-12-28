@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Lily",
+      "event" : "wedding",
+      "review": {
+        "likes": ["tuna", "catnip"],
+        "dislikes": ["ham", "zucchini"]
+      }
+    },
+    {
+      "name": "Barky",
+      "event" : "ChristmasParty",
+      "review": {
+        "likes": ["bones", "carrots"],
+        "dislikes": ["tuna"]
+      }
+    },
+    {
+      "name": "Purrpaws",
+      "event" : "PhotoShoot",
+      "review": {
+        "likes": ["mice"],
+        "dislikes": ["cookies"]
+      }
+    }
+  ]
