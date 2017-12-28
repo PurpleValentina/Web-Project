@@ -13,7 +13,7 @@ myRequest.send();
 function renderHTML(data){
 var htmlString="";
 for(i=0;i<data.length;i++) {
-htmlString += "<p>"+data[i].name+ ": Perfect photos from my "+data[i].event+".</p>";
+htmlString += "<p>"+data[i].name+ ": Perfect photos from my  "+data[i].event+".</p>";
 }
 document.getElementById("info").innerHTML = htmlString;
 
