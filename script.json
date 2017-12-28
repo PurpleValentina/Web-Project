@@ -8,7 +8,7 @@
       }
     },
     {
-      "name": "Barky",
+      "name": "Jim",
       "event" : "ChristmasParty",
       "review": {
         "likes": ["bones", "carrots"],
@@ -16,7 +16,7 @@
       }
     },
     {
-      "name": "Purrpaws",
+      "name": "Sara",
       "event" : "PhotoShoot",
       "review": {
         "likes": ["mice"],
