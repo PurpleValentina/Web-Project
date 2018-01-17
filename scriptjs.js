@@ -18,3 +18,26 @@ htmlString += "<p>"+data[i].name+ ": Perfect photos from my  "+data[i].event+".<
 document.getElementById("info").innerHTML = htmlString;
 
 }
+
+fetch("http://localhost:3000/review/4", {
+  method: "put",
+  headers: {
+      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  body: "name: Ada, event: PoolParty"
+});
+
+fetch("http://localhost:3000/review/5", {
+  method: "put",
+  headers: {
+      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+  },
+  body: "name: Dan, event: NewYearParty"
+});
+
+fetch("http://localhost:3000/review/3",{
+  method:"delete",
+  headers: {
+      "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
+    },
+});
