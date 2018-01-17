@@ -1,26 +1,17 @@
 [
     {
       "name": "Lily",
-      "event" : "wedding",
-      "review": {
-        "likes": ["tuna", "catnip"],
-        "dislikes": ["ham", "zucchini"]
-      }
+      "event" : "wedding"
+      
     },
     {
       "name": "Jim",
-      "event" : "ChristmasParty",
-      "review": {
-        "likes": ["bones", "carrots"],
-        "dislikes": ["tuna"]
-      }
+      "event" : "ChristmasParty"
+      
     },
     {
       "name": "Sara",
-      "event" : "PhotoShoot",
-      "review": {
-        "likes": ["mice"],
-        "dislikes": ["cookies"]
-      }
+      "event" : "PhotoShoot"
+      
     }
   ]
