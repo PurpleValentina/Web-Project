@@ -8,13 +8,16 @@
     <meta name="viewport" content="width=device-width">
     <title>Purple's Photography | About</title>
     <link rel="stylesheet" href="./css/style.css">
+    
+ 
 </head>
 
 <body>
     <header>
         <div class="container">
-            <div class="branding">
+            <div id="branding">
                 <h1>We love Photography</h1>
+                
             </div>
             <nav>
                 <ul>
@@ -43,17 +46,23 @@
     <section class="newsletter">
         <div class="container">
             <h2>Subscribe for more offers</h2>
-            <form>
-                <input type="email" placeholder="Enter Email...">
-                <button type="submit" class="button1">Subscribe</button>
-            </form>
+            <form name="myForm" method="post"  onsubmit="return Validation();">
+                    <p>Enter email here</p>
+                    <input type="text" name="email">
+                   
+                     <input type="submit" value="Submit"></input>
+                </form>
         </div>
     </section>
 
     <section class="main">
         <div class="container">
             <article class="main-col">
-                <h2 class="page-title">About me</h2>
+                <h2 class="page-title"><a id="eu" href="#">About me</a>
+                    
+                </h2>
+                <img class="hide" id="pozaEu" src="./images/eu.jpg" alt="gdfs">
+                
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut rutrum orci. Donec sed congue velit.
                     Mauris blandit, dolor quis maximus auctor, dolor massa vulputate mi, sit amet suscipit metus odio id
                     lacus. Etiam lacinia, odio vel auctor convallis, dolor tellus condimentum est, sit amet finibus ante
@@ -68,13 +77,15 @@
                     fames ac ante ipsum primis in faucibus. In sed tellus vel dolor placerat sollicitudin.</p>
             </article>
 
+            
             <aside class="sidebar">
-                <div class="dark">
+                <div class="dark" id="dark1">
                     <h3>What I do</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut rutrum orci. Donec sed congue velit.
                         Mauris blandit, dolor quis maximus auctor, dolor massa vulputate mi, sit amet suscipit metus odio
                         id lacus. Etiam lacinia, odio vel auctor convallis, dolor tellus condimentum est, sit amet finibus
                         ante arcu non mi. </p>
+                        <button type="button" onclick="changeText()">ChangeText</button>
                 </div>
             </aside>
 
@@ -84,6 +95,7 @@
     <footer>
         <p>Purples's Photography, Copyright &copy;2017</p>
     </footer>
+    <script type="text/javascript" src="fisier.js"></script>
 </body>
 
 </html>
